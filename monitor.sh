@@ -97,7 +97,7 @@ NOM=`less /etc/VPS-MX/controlador/nombre.log` > /dev/null 2>&1
 NOM1=`echo $NOM` > /dev/null 2>&1
 IDB=`less /etc/VPS-MX/controlador/IDT.log` > /dev/null 2>&1
 IDB1=`echo $IDB` > /dev/null 2>&1
-KEY="5559500808:AAG41Ro0cW8dNGlvWGH5QOf0y7yO_uHLgRw"
+KEY="5468227667:AAEbVOIgydheBBi58CDJLOjNMhZN0EIbrxs"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 MSG="⚠️ _AVISO DE VPS:_ *$NOM1* ⚠️
 ❗️ _Protocolo_ *[ PyDirec: $port ]* _con Fallo_ ❗️ 
